@@ -1,0 +1,16 @@
+Q3.What is difference Between Checked Exception and Unchecked Exceptions?
+1. Checked Exceptions:
+   - Checked exceptions are exceptions that the compiler requires you to handle explicitly by either using a 'try-catch' block or declaring them in the method's 'throws' clause.
+   - They are typically used to represent expected and recoverable issues that can occur during the execution of a program, such as file not found, database connection problems, or network issues.
+   - Checked exceptions extend the 'Exception' class or one of its subclasses (excluding 'RuntimeException' and its subclasses).
+   - Programmers are forced to acknowledge and handle these exceptions during coding, which promotes robust error-handling practices.
+   - Examples of checked exceptions include 'IOException', 'SQLException', and 'ClassNotFoundException'.
+
+   
+   
+  2. Unchecked Exceptions (Runtime Exceptions):
+   - Unchecked exceptions, also known as runtime exceptions, are exceptions that do not require explicit handling via 'try-catch' blocks or declaring them in the method's 'throws' clause.
+   - They typically represent programming errors, logic errors, or unexpected runtime conditions.
+   - Unchecked exceptions extend the 'RuntimeException' class or one of its subclasses.
+   - Programmers are not forced to handle unchecked exceptions explicitly, but they should be addressed through good programming practices to prevent unexpected program termination.
+   - Examples of unchecked exceptions include 'NullPointerException', 'ArrayIndexOutOfBoundsException', and 'ArithmeticException'.

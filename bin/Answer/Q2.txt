@@ -1,0 +1,13 @@
+Q2.What is the Different Between Exception and error?
+Answer:
+Exception:
+	Exceptions are Typically caused by issues that a program can potentially recover from such as incorrect user input ,file not found or network problems
+
+	There are checked at compile time (Checked exceptions) or  Unchecked Exceptions (Run-time Exceptions)
+Checked exceptions must be either caught using a try-catch block or declared in the method's throws clause.Examples of exceptions include IOException, NullPointerException,
+ and ArrayIndexOutOfBoundsException.
+
+Errors:
+	Errors, on the other hand, represent severe and usually unrecoverable issues that typically indicate a problem at the system level or in the runtime environment.
+	Errors are not meant to be caught or handled by typical application code because attempting to recover from them might lead to unpredictable behavior.
+	Examples of errors include OutOfMemoryError, StackOverflowError, and VirtualMachineError.
